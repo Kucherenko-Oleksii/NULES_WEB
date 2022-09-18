@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.5;
+    z-index: -1;   
+  }
+  header{
+    text-align: center;
+  }
+  h1,h2{
+    margin: 0;
+  }
+  h2{
+    color: darkblue;
+    font-size: 21px;
+    text-shadow: 1px 1px 2px rgb(214, 145, 145), 0 0 1em rgb(103, 103, 209), 0 0 0.2em rgb(149, 149, 209);
+  }
+.content-container ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.navigation_link{
+    display: block;
+    width: 200px;
+    height: 20px;
+    color: black;
+}
+.navigation_link:hover{
+    background-color: rgb(69, 238, 184);
+    transition: .5s;
+    transition-timing-function: cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px 0;
+}
+.menu{
+    column-count: 2;
+    text-align: center;
+    padding-left: 0;
+}
+.main-information{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px 0;
+}
+.copyright{
+    font-size: 12px;
+}
+fieldset{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.445), 0 10px 10px rgba(0, 0, 0, 0.445);
+    border: none;
+}
+.horizontal-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 2px 32px 29px 56px;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin-left: -74%;
+    margin-bottom: -17%;
+    width:200px;
+    height:200px;
+}
+
+.information_container{
+    width: 43%;
+}
+.nav_link_horiz_menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 20px;
+    padding: 0px 10px 0px 10px;
+    color: black;
+    
+}
+.nav_link_horiz_menu:hover{
+    background-color: rgb(69, 238, 184);
+    transition: .5s;
+    transition-timing-function: cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    border-radius: 10px;
+}
+p{
+    max-width: 1200px;
+    width: 95%;
+}
+.img_logo{
+    width: 150px;
+    height: 200px;
+}
+.server_img{
+    width: 250px;
+    height: 200px;
+}
